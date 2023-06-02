@@ -1,0 +1,5 @@
+prom2teams:
+  host: 0.0.0.0
+  port: 8089
+  monitoring_port: 9090
+  connector: '<add-your-web-hook-url>'
