@@ -23,9 +23,10 @@
 
 ### 4 Notifications via MS Teams
 
-### 4.1.  MS Teams Configuration
+### 4.1.  MS Teams Configuration    
    
-    Uncomment the following lines to receive notifications via MS Teams in values-kube-prom-stack.yaml:
+Uncomment the following lines to receive notifications via MS Teams in values-kube-prom-stack.yaml:
+
 ```
     #- name: 'msteams-notifications'
     #  webhook_configs:
@@ -120,9 +121,9 @@ kubectl port-forward -n monitoring alertmanager-prometheus-kube-prometheus-alert
 http://localhost:9093/#/alerts
 
 
-
 ### Resources:
 1. https://github.com/mehmetmgrsl/k8s-prometheus-grafana
 2. https://github.com/idealista/prom2teams
 3. https://prometheus.io/docs/tutorials/alerting_based_on_metrics/
 4. https://samber.github.io/awesome-prometheus-alerts/rules.html
+5. https://www.weave.works/blog/labels-in-prometheus-alerts-think-twice-before-using-them
